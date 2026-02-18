@@ -11,7 +11,8 @@ PHP quota control code for the WHO Textual Messages AMR survey hosted on SoSci S
 | `dimension_quota_lt.php` | Lithuania gender/age/education quota check and redirect |
 | `dimension_quota_sr.php` | Serbia gender/age/education quota check and redirect |
 | `dimension_quota_uz.php` | Uzbekistan gender/age/education quota check and redirect |
-| `penultimate_write.php` | Writes completed interview data to internal QC variables (DE, LT, SR, UZ) |
+| `penultimate_write_de_lt_sr.php` | Writes completed interview data to internal QC variables (DE, LT, SR) |
+| `penultimate_write_uz.php` | Writes completed interview data to internal QC variables (UZ; different age bands) |
 
 ## Countries
 | Code | Country | Quota |
