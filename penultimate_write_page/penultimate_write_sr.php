@@ -1,6 +1,6 @@
 $country = (int) value('SD02');
-if ($country == 4) {
-    put('QC01_01', 4);
+if ($country == 3) {
+    put('QC01_01', 3);
     debug('QC write OK. SD02=' . $country . '. Saved to QC01_01.');
 }
 
@@ -13,13 +13,13 @@ if ($g == 1 || $g == 2) {
 }
 
 $age = (int) value('SD03_01');
-if ($age >= 18 && $age <= 29) {
+if ($age >= 18 && $age <= 24) {
     $ageGroup = 1;
-} elseif ($age <= 39) {
+} elseif ($age <= 34) {
     $ageGroup = 2;
-} elseif ($age <= 49) {
+} elseif ($age <= 44) {
     $ageGroup = 3;
-} elseif ($age <= 59) {
+} elseif ($age <= 54) {
     $ageGroup = 4;
 } elseif ($age <= 64) {
     $ageGroup = 5;
