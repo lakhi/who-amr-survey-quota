@@ -4,15 +4,11 @@ PHP quota control code for the WHO Textual Messages AMR survey hosted on SoSci S
 
 ## Structure
 
-| File | Description |
-|------|-------------|
-| `country_quota.php` | Country-level quota check and redirect |
-| `dimension_quota_de.php` | Germany gender/age/education quota check and redirect |
-| `dimension_quota_lt.php` | Lithuania gender/age/education quota check and redirect |
-| `dimension_quota_sr.php` | Serbia gender/age/education quota check and redirect |
-| `dimension_quota_uz.php` | Uzbekistan gender/age/education quota check and redirect |
-| `penultimate_write_de_lt_sr.php` | Writes completed interview data to internal QC variables (DE, LT, SR) |
-| `penultimate_write_uz.php` | Writes completed interview data to internal QC variables (UZ; different age bands) |
+| Folder | Description |
+|--------|-------------|
+| `country_quota_page/` | Per-country overall quota check and redirect (one file per country) |
+| `dimension_quota_page/` | Per-country gender/age/education quota check and redirect (one file per country) |
+| `penultimate_write_page/` | Writes completed interview data to internal QC variables (one file per country group) |
 
 ## Countries
 | Code | Country | Quota |
