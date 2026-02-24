@@ -6,10 +6,10 @@ if ($country == 3) {
 
 $g = (int) value('SD05');
 if ($g == 1 || $g == 2) {
-    put('QC01_02', $g);
-    debug('QC write QC01_02=' . $g);
+    put('QC04_01', $g);
+    debug('QC write QC04_01=' . $g);
 } else {
-    debug('QC write QC01_02 skipped. SD05=' . $g);
+    debug('QC write QC04_01 skipped. SD05=' . $g);
 }
 
 $age = (int) value('SD03_01');
@@ -26,16 +26,16 @@ if ($age >= 18 && $age <= 24) {
 } else {
     $ageGroup = 6;
 }
-put('QC01_03', $ageGroup);
-debug('QC write QC01_03=' . $ageGroup);
+put('QC04_02', $ageGroup);
+debug('QC write QC04_02=' . $ageGroup);
 
 $edu = (int) value('SD08');
 if ($edu == 1 || $edu == 2) {
-    put('QC01_04', 1);
-    debug('QC write QC01_04=1');
+    put('QC04_03', 1);
+    debug('QC write QC04_03=1');
 } elseif ($edu >= 3 && $edu <= 7) {
-    put('QC01_04', 2);
-    debug('QC write QC01_04=2');
+    put('QC04_03', 2);
+    debug('QC write QC04_03=2');
 } else {
-    debug('QC write QC01_04 skipped. SD08=' . $edu);
+    debug('QC write QC04_03 skipped. SD08=' . $edu);
 }

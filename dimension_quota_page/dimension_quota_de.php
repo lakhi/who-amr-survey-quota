@@ -38,10 +38,10 @@ if ($edu == 1 || $edu == 2) {
 }
 
 // counts
-$countAge = statistic('count', 'QC01_03', $ageGroup);
+$countAge = statistic('count', 'QC02_02', $ageGroup);
 
 if ($eduGroup == 1 || $eduGroup == 2) {
-    $countEdu = statistic('count', 'QC01_04', $eduGroup);
+    $countEdu = statistic('count', 'QC02_03', $eduGroup);
 } else {
     $countEdu = 0;
 }
@@ -49,7 +49,7 @@ if ($eduGroup == 1 || $eduGroup == 2) {
 $genderQuotaFull = false;
 $countGender     = 0;
 if ($g == 1 || $g == 2) {
-    $countGender     = statistic('count', 'QC01_02', $g);
+    $countGender     = statistic('count', 'QC02_01', $g);
     $genderQuotaFull = ($countGender >= $QUOTA_DE_GENDER[$g]);
 }
 

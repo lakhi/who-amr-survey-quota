@@ -67,21 +67,21 @@ debugQuotaLine('COUNTRY DE', $countryFilled, $QUOTA_DE_COUNTRY);
 
 emitDebug('GENDER');
 foreach ($QUOTA_DE_GENDER as $group => $total) {
-    $filled = statistic('count', 'QC01_02', $group);
+    $filled = statistic('count', 'QC02_01', $group);
     $label  = 'G' . $group . ' ' . $GENDER_LABELS[$group];
     debugQuotaLine($label, $filled, $total);
 }
 
 emitDebug('AGE');
 foreach ($QUOTA_DE_AGE as $group => $total) {
-    $filled = statistic('count', 'QC01_03', $group);
+    $filled = statistic('count', 'QC02_02', $group);
     $label  = 'A' . $group . ' ' . $AGE_LABELS[$group];
     debugQuotaLine($label, $filled, $total);
 }
 
 emitDebug('EDUCATION');
 foreach ($QUOTA_DE_EDU as $group => $total) {
-    $filled = statistic('count', 'QC01_04', $group);
+    $filled = statistic('count', 'QC02_03', $group);
     $label  = 'E' . $group . ' ' . $EDU_LABELS[$group];
     debugQuotaLine($label, $filled, $total);
 }
