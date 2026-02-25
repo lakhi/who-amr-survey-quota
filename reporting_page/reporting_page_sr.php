@@ -1,21 +1,21 @@
 // SR quota reporting block for debug mode (read-only, no writes or redirects).
 
-$QUOTA_SR_COUNTRY = 5;
+$QUOTA_SR_COUNTRY = 1000;
 $QUOTA_SR_GENDER  = [
-    1 => 1,
-    2 => 1,
+    1 => 486,
+    2 => 514,
 ];
 $QUOTA_SR_AGE = [
-    1 => 1,
-    2 => 1,
-    3 => 1,
-    4 => 1,
-    5 => 1,
-    6 => 1,
+    1 => 98,
+    2 => 161,
+    3 => 167,
+    4 => 164,
+    5 => 186,
+    6 => 223,
 ];
 $QUOTA_SR_EDU = [
-    1 => 1,
-    2 => 1,
+    1 => 191,
+    2 => 809,
 ];
 
 $GENDER_LABELS = [

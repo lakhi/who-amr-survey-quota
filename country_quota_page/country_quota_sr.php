@@ -1,5 +1,5 @@
 // ===== QUOTA CONFIG =====
-$QUOTA_SR     = 5;
+$QUOTA_SR     = 1000;
 $QUOTA_URL_SR = 'https://webs.norstatsurveys.com/end/67babc88a4c14b1192c73b91fa150a25/QuotaFull';
 
 // Completed count for SR (via internal variable)

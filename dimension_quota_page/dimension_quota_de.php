@@ -1,8 +1,8 @@
 // ===== GERMANY QUOTA CONFIG =====
 $QUOTA_URL_DE    = 'https://webs.norstatsurveys.com/end/17ae08cfd6ed4e3ab008e33856732e1a/QuotaFull';
-$QUOTA_DE_GENDER = [1 => 1, 2 => 1];   // test values: [1 => 1, 2 => 1]; production: [1 => 493, 2 => 507]
-$QUOTA_DE_AGE    = [1 => 1, 2 => 1, 3 => 1, 4 => 1, 5 => 1, 6 => 1];  // test values; production: [1 => 91, 2 => 150, 3 => 146, 4 => 199, 5 => 162, 6 => 251]
-$QUOTA_DE_EDU    = [1 => 1, 2 => 1];   // test values: [1 => 1, 2 => 1]; production: [1 => 218, 2 => 782]
+$QUOTA_DE_GENDER = [1 => 493, 2 => 507];
+$QUOTA_DE_AGE    = [1 => 91, 2 => 150, 3 => 146, 4 => 199, 5 => 162, 6 => 251];
+$QUOTA_DE_EDU    = [1 => 218, 2 => 782];
 
 // ===== DEBUG RAW VALUES =====
 debug('RAW: SD05=' . value('SD05') . ', SD03_01=' . value('SD03_01') . ', SD08=' . value('SD08'));

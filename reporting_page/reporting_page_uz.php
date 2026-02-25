@@ -1,21 +1,21 @@
 // UZ quota reporting block for debug mode (read-only, no writes or redirects).
 
-$QUOTA_UZ_COUNTRY = 5;
+$QUOTA_UZ_COUNTRY = 1000;
 $QUOTA_UZ_GENDER  = [
-    1 => 1,
-    2 => 1,
+    1 => 504,
+    2 => 496,
 ];
 $QUOTA_UZ_AGE = [
-    1 => 1,
-    2 => 1,
-    3 => 1,
-    4 => 1,
-    5 => 1,
-    6 => 1,
+    1 => 268,
+    2 => 256,
+    3 => 187,
+    4 => 139,
+    5 => 59,
+    6 => 92,
 ];
 $QUOTA_UZ_EDU = [
-    1 => 1,
-    2 => 1,
+    1 => 218,
+    2 => 782,
 ];
 
 $GENDER_LABELS = [

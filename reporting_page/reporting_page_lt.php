@@ -1,21 +1,21 @@
 // LT quota reporting block for debug mode (read-only, no writes or redirects).
 
-$QUOTA_LT_COUNTRY = 5;
+$QUOTA_LT_COUNTRY = 1000;
 $QUOTA_LT_GENDER  = [
-    1 => 1,
-    2 => 1,
+    1 => 473,
+    2 => 527,
 ];
 $QUOTA_LT_AGE = [
-    1 => 1,
-    2 => 1,
-    3 => 1,
-    4 => 1,
-    5 => 1,
-    6 => 1,
+    1 => 113,
+    2 => 155,
+    3 => 162,
+    4 => 184,
+    5 => 159,
+    6 => 227,
 ];
 $QUOTA_LT_EDU = [
-    1 => 1,
-    2 => 1,
+    1 => 119,
+    2 => 881,
 ];
 
 $GENDER_LABELS = [

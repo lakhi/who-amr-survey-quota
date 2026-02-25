@@ -1,8 +1,8 @@
 // ===== LITHUANIA QUOTA CONFIG =====
 $QUOTA_URL_LT    = 'https://webs.norstatsurveys.com/end/5f178d93b5c2431ba6b41791eac5da93/QuotaFull';
-$QUOTA_LT_GENDER = [1 => 1, 2 => 1];                                    // test values; production: update with actual targets
-$QUOTA_LT_AGE    = [1 => 1, 2 => 1, 3 => 1, 4 => 1, 5 => 1, 6 => 1];  // test values; production: update with actual targets
-$QUOTA_LT_EDU    = [1 => 1, 2 => 1];                                    // test values; production: update with actual targets
+$QUOTA_LT_GENDER = [1 => 473, 2 => 527];
+$QUOTA_LT_AGE    = [1 => 113, 2 => 155, 3 => 162, 4 => 184, 5 => 159, 6 => 227];
+$QUOTA_LT_EDU    = [1 => 119, 2 => 881];
 
 // ===== DEBUG RAW VALUES =====
 debug('RAW: SD05=' . value('SD05') . ', SD03_01=' . value('SD03_01') . ', SD08=' . value('SD08'));

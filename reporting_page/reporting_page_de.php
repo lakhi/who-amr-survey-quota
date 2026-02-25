@@ -1,21 +1,21 @@
 // DE quota reporting block for debug mode (read-only, no writes or redirects).
 
-$QUOTA_DE_COUNTRY = 5;
+$QUOTA_DE_COUNTRY = 1000;
 $QUOTA_DE_GENDER  = [
-    1 => 1,
-    2 => 1,
+    1 => 493,
+    2 => 507,
 ];
 $QUOTA_DE_AGE = [
-    1 => 1,
-    2 => 1,
-    3 => 1,
-    4 => 1,
-    5 => 1,
-    6 => 1,
+    1 => 91,
+    2 => 150,
+    3 => 146,
+    4 => 199,
+    5 => 162,
+    6 => 251,
 ];
 $QUOTA_DE_EDU = [
-    1 => 1,
-    2 => 1,
+    1 => 218,
+    2 => 782,
 ];
 
 $GENDER_LABELS = [

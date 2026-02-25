@@ -1,8 +1,8 @@
 // ===== SERBIA QUOTA CONFIG =====
 $QUOTA_URL_SR    = 'https://webs.norstatsurveys.com/end/67babc88a4c14b1192c73b91fa150a25/QuotaFull';
-$QUOTA_SR_GENDER = [1 => 1, 2 => 1];                                    // test values; production: update with actual targets
-$QUOTA_SR_AGE    = [1 => 1, 2 => 1, 3 => 1, 4 => 1, 5 => 1, 6 => 1];  // test values; production: update with actual targets
-$QUOTA_SR_EDU    = [1 => 1, 2 => 1];                                    // test values; production: update with actual targets
+$QUOTA_SR_GENDER = [1 => 486, 2 => 514];
+$QUOTA_SR_AGE    = [1 => 98, 2 => 161, 3 => 167, 4 => 164, 5 => 186, 6 => 223];
+$QUOTA_SR_EDU    = [1 => 191, 2 => 809];
 
 // ===== DEBUG RAW VALUES =====
 debug('RAW: SD05=' . value('SD05') . ', SD03_01=' . value('SD03_01') . ', SD08=' . value('SD08'));

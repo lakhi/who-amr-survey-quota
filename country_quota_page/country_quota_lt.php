@@ -1,5 +1,5 @@
 // ===== QUOTA CONFIG =====
-$QUOTA_LT     = 5;
+$QUOTA_LT     = 1000;
 $QUOTA_URL_LT = 'https://webs.norstatsurveys.com/end/5f178d93b5c2431ba6b41791eac5da93/QuotaFull';
 
 // Completed count for LT (via internal variable)
