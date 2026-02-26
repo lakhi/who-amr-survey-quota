@@ -9,6 +9,8 @@ PHP quota control code for the WHO Textual Messages AMR survey hosted on SoSci S
 | `country_quota_page/` | Per-country overall quota check and redirect (one file per country) |
 | `dimension_quota_page/` | Per-country gender/age/education quota check and redirect (one file per country) |
 | `penultimate_write_page/` | Writes completed interview data to internal QC variables (one file per country group) |
+| `reporting_page/` | Per-country reporting/debug output page for quota counts and status |
+| `final_page/` | End-of-survey final pages with country-specific completion redirect links |
 
 ## Countries
 | Code | Country | Quota |
