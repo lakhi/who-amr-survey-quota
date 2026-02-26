@@ -1,5 +1,5 @@
 // ===== SERBIA QUOTA CONFIG =====
-$QUOTA_URL_SR    = 'https://webs.norstatsurveys.com/end/67babc88a4c14b1192c73b91fa150a25/QuotaFull';
+$QUOTA_URL_SR    = 'https://webs.norstatsurveys.com/end/1d37c4b3c27740d881490df8f5420853/QuotaFull';
 $QUOTA_SR_GENDER = [1 => 486, 2 => 514];
 $QUOTA_SR_AGE    = [1 => 98, 2 => 161, 3 => 167, 4 => 164, 5 => 186, 6 => 223];
 $QUOTA_SR_EDU    = [1 => 191, 2 => 809];

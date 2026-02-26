@@ -1,6 +1,6 @@
 // ===== QUOTA CONFIG =====
 $QUOTA_DE     = 1000;
-$QUOTA_URL_DE = 'https://webs.norstatsurveys.com/end/17ae08cfd6ed4e3ab008e33856732e1a/QuotaFull';
+$QUOTA_URL_DE = 'https://webs.norstatsurveys.com/end/e8ca6da139244b20b52f7efc79f9b7a3/QuotaFull';
 
 // Completed count for DE (via internal variable)
 $finishedDE = statistic('count', 'QC01_01', 1);

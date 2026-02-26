@@ -1,5 +1,5 @@
 // ===== LITHUANIA QUOTA CONFIG =====
-$QUOTA_URL_LT    = 'https://webs.norstatsurveys.com/end/5f178d93b5c2431ba6b41791eac5da93/QuotaFull';
+$QUOTA_URL_LT    = 'https://webs.norstatsurveys.com/end/245a908c9de14a4e9f959286f322dcf2/QuotaFull';
 $QUOTA_LT_GENDER = [1 => 473, 2 => 527];
 $QUOTA_LT_AGE    = [1 => 113, 2 => 155, 3 => 162, 4 => 184, 5 => 159, 6 => 227];
 $QUOTA_LT_EDU    = [1 => 119, 2 => 881];

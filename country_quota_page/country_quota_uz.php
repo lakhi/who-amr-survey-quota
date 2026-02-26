@@ -1,6 +1,6 @@
 // ===== QUOTA CONFIG =====
 $QUOTA_UZ     = 1000;
-$QUOTA_URL_UZ = 'https://webs.norstatsurveys.com/end/44e47d14a5ac4ef5bc1b64f853590ad4/QuotaFull';
+$QUOTA_URL_UZ = 'https://webs.norstatsurveys.com/end/e334c1c82a7c4fd390c8b132a23a00a1/QuotaFull';
 
 // Completed count for UZ (via internal variable)
 $finishedUZ = statistic('count', 'QC01_01', 4);

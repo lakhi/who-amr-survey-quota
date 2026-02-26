@@ -1,5 +1,5 @@
 // ===== GERMANY QUOTA CONFIG =====
-$QUOTA_URL_DE    = 'https://webs.norstatsurveys.com/end/17ae08cfd6ed4e3ab008e33856732e1a/QuotaFull';
+$QUOTA_URL_DE    = 'https://webs.norstatsurveys.com/end/e8ca6da139244b20b52f7efc79f9b7a3/QuotaFull';
 $QUOTA_DE_GENDER = [1 => 493, 2 => 507];
 $QUOTA_DE_AGE    = [1 => 91, 2 => 150, 3 => 146, 4 => 199, 5 => 162, 6 => 251];
 $QUOTA_DE_EDU    = [1 => 218, 2 => 782];

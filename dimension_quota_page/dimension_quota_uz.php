@@ -1,5 +1,5 @@
 // ===== UZBEKISTAN QUOTA CONFIG =====
-$QUOTA_URL_UZ    = 'https://webs.norstatsurveys.com/end/44e47d14a5ac4ef5bc1b64f853590ad4/QuotaFull';
+$QUOTA_URL_UZ    = 'https://webs.norstatsurveys.com/end/e334c1c82a7c4fd390c8b132a23a00a1/QuotaFull';
 $QUOTA_UZ_GENDER = [1 => 504, 2 => 496];
 $QUOTA_UZ_AGE    = [1 => 268, 2 => 256, 3 => 187, 4 => 139, 5 => 59, 6 => 92];
 $QUOTA_UZ_EDU    = [1 => 218, 2 => 782];
