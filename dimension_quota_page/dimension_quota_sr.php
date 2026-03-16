@@ -83,7 +83,7 @@ debug('GROUPS: g=' . $g . ', ageGroup=' . $ageGroup . ', eduGroup=' . $eduGroup)
 debug('COUNTS: gender=' . $countGender . ', age=' . $countAge . ', edu=' . $countEdu);
 debug('HITS: gender=' . $genderHitStr . ', age=' . $ageHitStr . ', edu=' . $eduHitStr);
 
-if ($genderQuotaFull || $ageQuotaFull || $eduQuotaFull) {
-    debug('TRIGGER: SR dimension quota hit - redirecting');
+if ($genderQuotaFull || $ageQuotaFull) {
+    debug('TRIGGER: SR gender/age quota hit - redirecting (edu not enforced)');
     redirect($QUOTA_URL_SR);
 }
